@@ -1,0 +1,13 @@
+project Aoc2022 is
+
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Main use ("day02.adb", "day01.adb");
+
+   package Ide is
+      for Vcs_Kind use "git";
+      for Vcs_Repository_Root use ".";
+   end Ide;
+
+end Aoc2022;
+
